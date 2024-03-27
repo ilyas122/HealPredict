@@ -30,11 +30,6 @@ def home(request):
 
 
 
-   
-
-       
-
-
 def admin_ui(request):
 
     if request.method == 'GET':

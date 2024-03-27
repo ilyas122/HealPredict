@@ -88,64 +88,14 @@
 </div>
 
 
-<div class="form-row field-dob">
 
 
-  <div>
-      
-      
-          <label class="required" for="id_dob">Dob:</label>
-          
-              <input type="text" name="dob" value={{puser.patient.dob|date:'Y-m-d'}} class="vDateField" size="10" required="" id="id_dob">
-              
-</div>
-</div>
-
-<div class="form-row field-address">
 
 
-  <div>
-      
-      
-          <label class="required" for="id_address">Address:</label>
-          
-              <input type="text" name="address" value={{puser.patient.address}} class="vTextField" maxlength="100" required="" id="id_address">
-          
-      
-      
-  </div>
-
-</div>
-
-<div class="form-row field-mobile_no">
 
 
-  <div>
-      
-      
-          <label class="required" for="id_mobile_no">Mobile no:</label>
-          
-              <input type="text" name="mobile_no" value={{puser.patient.mobile_no}} class="vTextField" maxlength="15" required="" id="id_mobile_no">
-          
-      
-      
-  </div>
-
-</div>
-
-<div class="form-row field-gender">
 
 
-  <div>
-      
-      
-          <label class="required" for="id_gender">Gender:</label>
-          
-              <input type="text" name="gender" value={{puser.patient.gender}} class="vTextField" maxlength="10" required="" id="id_gender">
-          
-      
-      
-  </div>
 
 </div>
 
@@ -185,7 +135,7 @@
   $(document).ready( function(){
     $('#save').click( function(event){
 
-    dob = document.getElementById('id_dob').value,
+    
     
 
     $.ajax({
@@ -195,10 +145,7 @@
 
         'csrfmiddlewaretoken': '{{ csrf_token }}',
         "name" :document.getElementById('id_name').value,
-        "dob" :dob,
-        "gender" :document.getElementById('id_gender').value,
-        "address" :document.getElementById('id_address').value,
-        "mobile_no" :document.getElementById('id_mobile_no').value
+        
 
        },
 

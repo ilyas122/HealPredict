@@ -25,7 +25,8 @@ SECRET_KEY = 'v3v5vfsn0xxjtmb=eoawoiw$5br4g0r&jy_l39995h_93l+-z5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
+
 
 
 # Application definition
@@ -82,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'predico',
         'USER': 'postgres',
-        'PASSWORD': '1234',
+        'PASSWORD': '12345',
         'HOST': 'localhost'
     }
 }

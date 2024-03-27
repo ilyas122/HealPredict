@@ -14,7 +14,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .icon {
   padding: 10px;
-  background: dodgerblue;
+  background: green;
   color: white;
   min-width: 50px;
   text-align: center;
@@ -27,12 +27,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .input-field:focus {
-  border: 2px solid dodgerblue;
+  border: 2px solid green;
 }
 
 /* Set a style for the submit button */
 .btn {
-  background-color: dodgerblue;
+  background-color: green;
   color: white;
   padding: 15px 20px;
   border: none;

@@ -2489,7 +2489,6 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
   border-color: #28a745;
 }
 
@@ -2505,7 +2504,6 @@ fieldset:disabled a.btn {
 
 .btn-success.disabled, .btn-success:disabled {
   color: #fff;
-  background-color: #28a745;
   border-color: #28a745;
 }
 
@@ -2762,7 +2760,6 @@ fieldset:disabled a.btn {
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #28a745;
   border-color: #28a745;
 }
 
@@ -2778,7 +2775,6 @@ fieldset:disabled a.btn {
 .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
 .show > .btn-outline-success.dropdown-toggle {
   color: #fff;
-  background-color: #28a745;
   border-color: #28a745;
 }
 
@@ -4995,7 +4991,6 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 
 .badge-success {
   color: #fff;
-  background-color: #28a745;
 }
 
 a.badge-success:hover, a.badge-success:focus {

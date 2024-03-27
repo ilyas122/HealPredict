@@ -335,11 +335,11 @@ iframe {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background: #a64bf4;
-  background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: #a64bf4; /* Background fallback color */
+  background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff); /* Safari 5.1-6.0 */
+  background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff); /* Opera 11.1-12.0 */
+  background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff); /* Firefox 3.6-15 */
+  background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff); /* Standard syntax */
   top: 0;
   left: -100%;
 
@@ -348,6 +348,7 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+
 
 .login100-form-btn {
   font-family: Poppins-Medium;
